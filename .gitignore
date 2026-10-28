@@ -1,0 +1,36 @@
+# Game images and save data must never be committed.
+*.[nN][dD][sS]
+*.[sS][aA][vV]
+*.[sS][rR][mM]
+*.[dD][sS][vV]
+*.[sS][tT][aA][tT][eE]*
+*.[rR][oO][mM]
+*.[iI][sS][oO]
+*.[nN][cC][sS][dD]
+
+# Local backups, logs, screenshots, and private working material.
+*.bak
+*.backup
+*.tmp
+*.log
+private/
+internal/
+local/
+backups/
+saves/
+roms/
+screenshots/
+input-records/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Generated archives belong in release assets, not repository history.
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
